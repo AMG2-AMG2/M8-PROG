@@ -21,4 +21,4 @@ $adres = [
 
 echo $twig->render('extensie.twig', ['adres' => $adres]);
 
-//echo $twig->render('extensie.twig', ['naam' => 'Halil','beroep' => 'student']);
+//echo $twig->render('extensie.twig', ['naam' => 'Halil','beroep' => 'Medewerker']);
