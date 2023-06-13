@@ -11,9 +11,9 @@ $twig = new Environment($loader);
 
 $users = [
     'usernameU' => "Halil \n",
+    'usernameN' => "Abdi \n",
     'usernameN' => "Uday \n",
     'usernameN' => "Mert \n",
-    'usernameN' => "Ahmet \n",
     'usernameN' => "Bilal \n"
 
     
@@ -22,4 +22,4 @@ $users = [
 
 echo $twig->render('loop.twig', ['users' => $users]);
 
-//echo $twig->render('extensie.twig', ['naam' => 'Halil','beroep' => 'student']);
+//echo $twig->render('extensie.twig', ['naam' => 'Halil','beroep' => 'Medewerker']);
